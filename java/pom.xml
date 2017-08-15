@@ -5,7 +5,7 @@
   <groupId>com.cloudera.api</groupId>
   <artifactId>cloudera-manager-api</artifactId>
   <name>Cloudera Manager API</name>
-  <version>5.12.0</version>
+  <version>5.12.0-rocana1.0.0-SNAPSHOT</version>
 
   <properties>
     <cxf.version>2.7.7</cxf.version>
@@ -20,14 +20,14 @@
 
   <distributionManagement>
     <repository>
-      <id>cdh.releases.repo</id>
-      <url>http://maven.jenkins.cloudera.com:8081/artifactory/cdh-staging-local</url>
-      <name>CDH Releases Repository</name>
+      <id>com.rocana.releases</id>
+      <name>Rocana Release Repository</name>
+      <url>http://repository.rocana.com/content/repositories/com.scalingdata.releases/</url>
     </repository>
     <snapshotRepository>
-      <id>cdh.snapshots.repo</id>
-      <url>http://maven.jenkins.cloudera.com:8081/artifactory/libs-snapshot-local</url>
-      <name>CDH Snapshots Repository</name>
+      <id>com.rocana.snapshots</id>
+      <name>Rocana Snapshots Repository</name>
+      <url>http://repository.rocana.com/content/repositories/com.scalingdata.snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
