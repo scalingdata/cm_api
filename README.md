@@ -1,3 +1,11 @@
+Rocana Fork
+===========
+
+This is a fork of [cloudera/cm_api](https://github.com/cloudera/cm_api).
+
+The fork was originally performed to get around an issue that may be resolved in https://github.com/cloudera/cm_api/pull/63.
+This fork may no longer be needed once that has merged, and another release of the original repo is made.
+
 Cloudera Manager RESTful API Clients
 ====================================
 
